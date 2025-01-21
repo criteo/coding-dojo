@@ -4,12 +4,12 @@ Overview
 The goal of this dojo is to implement a parser of dates with format ISO 8601.
 (nb: you can do this dojo even if you don't know anything about the format ISO 8601)
 
-The test cases are already written. That ensures developers can focus on the implementation of the parser and know that their implementation respect the specification.
+Since test cases are already written it means that you don't need to know anything about the ISO 8601 (ie: as long as the tests are green, it means that your implementation respect the specification).
 
 What is nice about this dojo:
 - the beginning is rather easy, but the 2nd test suite quickly adds some subtelties that are not so trivial to deal with.
 - it accomodates well any duration (ideally plan 1h30-2h to do it, but you can already do something cool if you have less time, and you can go farther if you have more time).
-- you can focus on the algorithm since the tests are already written.
+- all tests are written, you won't need to write any, so you can completey focus on the algorithm.
 - you can practice refactoring (because it's almost certain that your first code will end up being pretty messy 😅).
 - you will learn what the ISO 8601 is, and (almost) all the format it supports.
 
@@ -70,3 +70,5 @@ Here are some (non exhaustive) examples:
 
 If you are curious, you can get more context on the [Wikipedia page of ISO 8601](https://en.wikipedia.org/wiki/ISO_8601).
 
+
+Nb: this is based on the specification from 2004. If you are knowlegeable about the specification from 2019 and how we could adapt this dojo accordingly, don't hesitate to get in touch with me!
