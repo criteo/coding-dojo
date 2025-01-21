@@ -1,2 +1,13 @@
+# intellij
 .idea
+
+# maven
+target
+
+# vim
 *.sw*
+
+# Visual Studio
+.vs
+obj
+bin
