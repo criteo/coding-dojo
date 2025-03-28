@@ -22,6 +22,14 @@ namespace BrainfuckInterpreterTest
             Assert.That(BrainfuckInterpreter.BrainfuckInterpreter.Run(program), Is.EqualTo(StringRepresentationToByteArray(expectedStringRepresentationOfTheByteArray)));
         }
 
+        // This is the final test: it requires a support of all 7 commands, as well as a support for nested loop
+        [Test]
+        public void HelloWorldTest()
+        {
+            var program = "++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.";
+            Assert.That(BrainfuckInterpreter.BrainfuckInterpreter.RunAndGetString(program), Is.EqualTo("Hello World!\n"));
+        }
+
         private static IEnumerable<byte> StringRepresentationToByteArray(string data)
         {
             if (string.IsNullOrEmpty(data))
@@ -30,5 +38,5 @@ namespace BrainfuckInterpreterTest
             }
             return data.Split(',').Select(byte.Parse);
         }
-	}
+    }
 }
