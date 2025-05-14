@@ -50,5 +50,5 @@ Possible solutions
 ==================
 If you are curious, here are:
 
-- [a simple Solver](https://github.com/gturri/mastermind-solver/blob/main/mastermind-solver/DirectSolver.cs). It may require up to 9 guesses in the worst case.
-- [a more complex Solver](https://github.com/gturri/mastermind-solver/blob/main/mastermind-solver/MinMaxSolver.cs). The code it a bit more complex (and it's slower), but it requires at most 5 guesses in order to find a solution.
+- [a simple Solver](https://codeberg.org/gturri/mastermind-solver/src/branch/main/mastermind-solver/DirectSolver.cs). It may require up to 9 guesses in the worst case.
+- [a more complex Solver](https://codeberg.org/gturri/mastermind-solver/src/branch/main/mastermind-solver/MinMaxSolver.cs). The code it a bit more complex (and it's slower), but it requires at most 5 guesses in order to find a solution.
