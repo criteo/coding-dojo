@@ -11,7 +11,7 @@ The goal of this dojo is
 
 Nb: in this dojo we assume that a combination is made of 4 token, and a choice of 6 color per tokens.
 
-Overview of the provide code
+Overview of the provided code
 ============================
 
 In order to get up to speed quickly we provide some code:
