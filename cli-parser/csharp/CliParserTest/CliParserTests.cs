@@ -56,8 +56,8 @@ public class CliParserTests
     //    sut.RegisterFlag(userRequestedHelp, longOption: "help", shortOption: 'h');
 
     //    // Act & assert
-    //    Assert.That(sut.Parse(["help"]).GetBool(userRequestedHelp), Is.True);
-    //    Assert.That(sut.Parse(["h"]).GetBool(userRequestedHelp), Is.True);
+    //    Assert.That(sut.Parse(["--help"]).GetBool(userRequestedHelp), Is.True);
+    //    Assert.That(sut.Parse(["-h"]).GetBool(userRequestedHelp), Is.True);
     //    Assert.That(sut.Parse([]).GetBool(userRequestedHelp), Is.False);
     //}
 
