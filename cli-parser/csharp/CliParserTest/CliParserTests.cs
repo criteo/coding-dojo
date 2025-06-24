@@ -116,4 +116,21 @@ public class CliParserTests
     //    Assert.That(parsed.GetUnflaggedOptions(), Is.EqualTo(new[]{"/some/path", "/other/path"}));
 
     //}
+
+    [Test]
+    public void CanDealWithTrickyUnflaggedOptions()
+    {
+        // Arrange
+        var sut = new CliParser();
+        sut.RegisterFlag("help", shortOption: 'h');
+        sut.RegisterFlag("long", shortOption: 'l');
+
+        // Act
+        var parsed = sut.Parse(["hello", "-hello", "--hello"]);
+
+        // Assert
+        Assert.That(parsed.GetUnflaggedOptions(), Is.EqualTo(new[]{"hello", "-hello", "--hello"}));
+        Assert.That(parsed.GetBool("help"), Is.False);
+        Assert.That(parsed.GetBool("long"), Is.False);
+    }
 }
