@@ -1,3 +1,5 @@
+_See https://medium.com/criteo-engineering/why-and-how-we-organize-coding-dojos-654c6f1bf1a7 to find out more about coding dojos in general, and the context of the repo in particular_
+
 Coding dojos is a practice for developers to sharpen their skills. Find out more instance [on this page](https://codingdojo.org/practices/WhatIsCodingDojo/) or with [this podcast](https://se-radio.net/2024/08/se-radio-629-emily-bache-on-katas-and-the-importance-of-practice/).
 
 There are a lot of topics for coding dojos available on the Internet, for instance:
