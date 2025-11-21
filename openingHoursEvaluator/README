@@ -1,0 +1,33 @@
+Overview
+========
+
+The goal of this dojo is to implement a parser of the "opening hours" strings used in OpenStreetMap.
+(nb: you can do this dojo even if you don't know anything about this).
+
+Since test cases are already written it means that you don't need to know anything about those "opening hours" string (or even about OpenStreetMap). As long as you turn all tests green we're good 🙂.
+
+Some context about the "opening hours"
+======================================
+
+OpenStreetMaps is a collaborative map, a kind of "wikipedia of the map".
+A particular syntax is used to express when a given placeis opened. For instance
+
+    Mo-We 08:00-16:30,19:00-21:15
+
+means the place is opened from Monday to Wednesday from 8 AM to 4:30PM and then again from 7 PM to 9:15 PM.
+
+If you are curious about it, or if you want more clues to understand some provided test case, you can get more clues about this format on this page of OpenStreetMap wiki: https://wiki.openstreetmap.org/wiki/Key:opening_hours . However, you don't have to read it to perform the dojo.
+
+How this dojo is intended to be performed
+=========================================
+
+The goal is to implement a class that parses an "opening hours" string and can then tell whether the place is opened or closed at a given date and time.
+
+The implementation goes in OpeningHoursEvaluator.cs. The goal is that tests in OpeningHoursEvaluatorTest end up green.
+
+Note that:
+- as for the other dojos of this repo, almost all test cases are commented out. You are encouraged to uncomment and make them pass one by one.
+- it would be pretty long to complete all tests. Instead of aiming for this you are encouraged to timebox your dojo and see how far you can go in this time. (and remember that the goal is not to have code that you'll ship in prod, but rather to train your skills. i.e. the goal is not to get as much green tests as possible, but rather to have green tests with clean code)
+- some complexe features are not covered by tests (like the "PH" (Public Holiday)). But feel free to try implementing it if you want to 🙂
+
+
