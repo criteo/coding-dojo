@@ -1,0 +1,26 @@
+<svg id="svg1" width="210mm" height="297mm" version="1.1" viewBox="0 0 210 297" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs id="defs1">
+		<mask id="mask-powermask-path-effect14" maskUnits="userSpaceOnUse">
+			<path id="mask-powermask-path-effect14_box" d="m16.297 57.885h171.66v144.06h-171.66z" style="fill:#fff"/>
+			<path id="path1" d="m16.297 57.885h171.66v144.06h-171.66z" style="fill:#fff"/>
+			<g id="g14" transform="translate(1.1041 4.7844)" style="">
+				<ellipse id="ellipse14" cx="103.42" cy="135.25" rx="58.517" ry="50.604" d="M 161.93309,135.25092 A 58.516727,50.604088 0 0 1 103.41637,185.855 58.516727,50.604088 0 0 1 44.899639,135.25092 58.516727,50.604088 0 0 1 103.41637,84.646828 58.516727,50.604088 0 0 1 161.93309,135.25092 Z" style="paint-order:stroke markers fill;stroke-width:0"/>
+				<rect id="rect14" x="9.2007" y="135.8" width="199.47" height="90.903" ry="0" d="M 9.2007437,135.80296 H 208.67287 v 90.90335 H 9.2007437 Z" style="paint-order:stroke markers fill;stroke-width:0"/>
+			</g>
+		</mask>
+		<radialGradient id="radialGradient15" cx="102.13" cy="129.91" r="84.831" gradientTransform="matrix(1 0 0 .83731 0 21.136)" gradientUnits="userSpaceOnUse">
+			<stop id="stop14" style="stop-color:#00f" offset=".61713"/>
+			<stop id="stop17" style="stop-color:#00ff06" offset=".70025"/>
+			<stop id="stop16" style="stop-color:#f5f737" offset=".78086"/>
+			<stop id="stop15" style="stop-color:#f00" offset="1"/>
+		</radialGradient>
+	</defs>
+        <rect id="background" x="0" y="0" width="210" height="297" fill="#0f0" />
+		<path id="path6" transform="translate(-1.1041 -4.7844)" d="m186.96 129.91a84.831 71.03 0 0 1-84.831 71.03 84.831 71.03 0 0 1-84.831-71.03 84.831 71.03 0 0 1 84.831-71.03 84.831 71.03 0 0 1 84.831 71.03z" mask="url(#mask-powermask-path-effect14)" style="fill:url(#radialGradient15);paint-order:stroke markers fill;stroke-width:0"/>
+		<path id="path5" d="m23.186 217.87 62.197-121.45 21.714 66.613 36.067-77.654 31.651 110.41z" style="fill:#d38d5f;paint-order:stroke markers fill;stroke-width:0"/>
+		<rect id="rect1" x="59.989" y="216.77" width="13.617" height="41.955" style="fill:#fff;paint-order:stroke markers fill;stroke-width:0"/>
+		<rect id="rect2" x="99.368" y="220.08" width="12.513" height="37.539" style="fill:#fff;paint-order:stroke markers fill;stroke-width:0"/>
+		<ellipse id="path2" cx="79.126" cy="212.35" rx="49.316" ry="24.29" style="fill:#fff;paint-order:stroke markers fill;stroke-width:0"/>
+		<ellipse id="path3" cx="31.099" cy="199.1" rx="19.322" ry="11.409" style="fill:#fff;paint-order:stroke markers fill;stroke-width:0"/>
+		<ellipse id="path4" cx="29.442" cy="197.82" rx="3.3123" ry="3.1283" style="fill:#0000fe;paint-order:stroke markers fill;stroke-width:0"/>
+</svg>

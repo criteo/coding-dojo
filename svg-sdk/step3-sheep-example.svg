@@ -1,0 +1,8 @@
+<svg id="svg1" width="150" height="300" version="1.1" fill="#000" xmlns="http://www.w3.org/2000/svg">
+  <rect id="background" x="0" y="0" width="150" height="300" fill="#0f0" />
+  <rect id="rect1" x="70" y="70" width="10" height="40" fill="#fff" />
+  <rect id="rect2" x="110" y="76" width="12" height="38" fill="#fff" />
+  <ellipse id="path2" cx="94" cy="68" rx="50" ry="25" fill="#fff"/>
+  <ellipse id="path3" cx="45" cy="55" rx="20" ry="10" fill="#fff"/>
+  <ellipse id="path4" cx="44" cy="54" rx="4" ry="4" fill="#0000ff"/>
+</svg>
